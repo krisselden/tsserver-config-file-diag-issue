@@ -10,15 +10,13 @@ Adding `tmp/index.ts` triggers `configFileDiag` event to fire even though this f
 ```json
 {
   "compilerOptions": {
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es2015",
     "rootDir": "src",
     "outDir": "dist"
   },
-  "exclude": [
-    "tmp"
-  ],
-  "file": [
-    "src/index.ts"
-  ]
+  "include": [ "src/**/*.ts" ]
 }
 ```
 
