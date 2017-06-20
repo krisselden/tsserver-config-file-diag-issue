@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "fixturify": "^0.3.3",
+    "typescript": "^2.3.4"
+  }
+}
